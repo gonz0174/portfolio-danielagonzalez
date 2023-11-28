@@ -1,0 +1,159 @@
+.containerFull {
+    background-color: #F8F6F0;
+}
+
+h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, label, .btn-contact, ol {
+    font-family: 'Kurale', serif;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+li a:hover {
+    background-color: #F3CFC7;
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #333;
+}
+
+p {
+    font-size: 14pt;
+}
+
+ul li {
+    text-decoration: none;
+    font-family: 'Kurale', serif;
+    font-size: 14pt;
+}
+
+a {
+   text-decoration: none; 
+}
+
+.danielaLogo {
+    width: 70%;
+}
+
+.img-contact {
+    height: 380px;
+    border-radius: 20%;
+}
+
+.daniela-about {
+    max-width: 100%;
+    height: 650px;
+}
+
+.contact-icons {
+    background-color: #F3CFC7;
+    padding: 7px 8px;
+    border-radius: 50%;
+}
+
+.line-contact {
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-contact {
+    background-color: #F19820;
+    border: 1px solid #F19820;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.btn-contact:hover {
+    background-color: white;
+    border: 1px solid white;
+}
+
+#message, #email, #name {
+    border: 0;
+}
+
+.about-container {
+    width: 1200px;
+}
+
+.icesi-banner {
+    width: 1000px;
+}
+
+.icesi-title {
+    position: absolute;
+    top: 750px;
+    left: 200px;
+    color: white;
+}
+
+.degree-icesi {
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    color: white;
+    font-weight: 300;
+}
+
+.fa-location-dot, .fa-calendar {
+    background-color: #F3CFC7;
+    border-radius: 50%;
+    padding: 8px 10px;
+    color: black;
+}
+
+.icon-tile-icesi {
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    color: white;
+    font-weight: 300;
+}
+
+.awards {
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    color: white;
+    font-weight: 300;
+    width: 650px;
+}
+
+.img-thumbnail-icons {
+    max-width: 60px !important;
+}
+
+.btn-portfolio {
+    background-color: #F19820;
+    border: 1px solid #F19820;
+}
+
+.btn-portfolio a {
+    color: white;
+}
+
+.know-me {
+    left: 50%;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #F19820;
+    background-color: #F19820;
+}
+
+.know-me a {
+    color: white;
+    text-decoration: none;
+}
+
+.img-thumbnail-index {
+    height: 500px;
+
+}
