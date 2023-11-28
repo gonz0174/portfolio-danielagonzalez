@@ -157,3 +157,7 @@ a {
     height: 500px;
 
 }
+
+.shadow-effect {
+    filter: brightness(70%);
+  }
