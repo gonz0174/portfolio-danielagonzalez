@@ -1,44 +1,99 @@
-.containerFull {
-    background-color: #F8F6F0;
+* {
+   box-sizing: border-box; 
+
+   margin: 0;
+   padding: 0;
 }
 
-h2, h3, h4 {
+.container {
+    width:75vw;
+    min-width: 320px;
+    max-width: 1000px;
+
+    height:auto;
+    min-height: 100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    background-color: #f7f4e9;
+
+    margin: auto;
+}
+
+h2, h3, h4, ul li {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-p, label, .btn-contact, ol {
+p, label, ol, .btn-contact {
     font-family: 'Kurale', serif;
 }
 
-.nav-links {
-    list-style: none;
-}
-
-li a:hover {
-    background-color: #F3CFC7;
-}
-
-.nav-links li a {
-    text-decoration: none; /* Remove underline */
-    color: #333;
-}
-
 p {
-    font-size: 14pt;
+    font-size: 16pt;
+}
+
+nav {
+    background-color: #F3CFC7;
+
+    border-radius: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #F19820;
+    color: white !important;
+
+    padding: 6px 8px;
+    border-radius: 6px;
 }
 
 ul li {
     text-decoration: none;
-    font-family: 'Kurale', serif;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
-a {
-   text-decoration: none; 
+ul li .dropdown-menu {
+    background-color: #F3CFC7;
+
+    border: 1px solid #F3CFC7;
+
+    font-weight: 600;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+
+    border-radius: 6px;
+
+    color: black !important;
+}
+
+.illustration1 {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.sprinkles {
+    width: 30px;
+    height: 30px;
+    padding: 0 2px;
 }
 
 .danielaLogo {
-    width: 70%;
+    width: 100%;
+}
+
+.welcome {
+    background-color: #F5F1EB;
+    background-image: url("/images/dandelion.png");
+    background-repeat: repeat-x;
+
+    border-radius: 16px;
 }
 
 .img-contact {
@@ -161,3 +216,18 @@ a {
 .shadow-effect {
     filter: brightness(70%);
   }
+
+footer {
+    margin-top: auto;
+    padding: 1em 0;
+
+    background-color: #F7D49A;
+
+    border-radius: 16px;
+}
+
+@media (max-width:991px) {
+    .illustration1 {
+        display: none;
+    }
+}
