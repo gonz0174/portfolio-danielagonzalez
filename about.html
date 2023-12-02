@@ -9,22 +9,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Kurale&family=Montserrat:wght@300;400;500&family=Nunito:wght@400;500&family=Patrick+Hand&family=Rowdies:wght@300&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Portfolio - Daniela Gonzalez</title>
+    <title>About - Daniela Gonzalez</title>
 </head>
-<body class="containerFull m-3">
+<body class="container">
     <header>
-        <nav class="d-flex justify-content-between align-items-center mt-3">
-            <div>
-                <a href="index.html"><img class="danielaLogo" src="./images/danielaGonzalez-logo.png" alt="Daniela Gonzalez Logo"></a>
+        <nav class="navbar navbar-expand-lg mt-4">
+            <div class="container-fluid d-flex flex-column justify-content-between align-items-center">
+                <div class="my-5">
+                    <a href="index.html"><img class="danielaLogo" src="./images/danielaGonzalez-logo.png" alt="Daniela Gonzalez Logo"></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mb-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-lg-0 d-flex justify-content-between align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <img class="sprinkles" src="./images/sprinkle-danielaPortfolio.svg" alt="sprinkle">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item mb-2" href="./about.html">About Me</a></li>
+                                    <li><a class="dropdown-item mb-2" href="#">Education</a></li>
+                                    <li><a class="dropdown-item" href="#">Experience</a></li>
+                                </ul>
+                            </li>
+                            <img class="sprinkles" src="./images/sprinkle-danielaPortfolio.svg" alt="sprinkle">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./portfolio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Portfolio
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item mb-2" href="./portfolio.html">Portfolio</a></li>
+                                    <li><a class="dropdown-item mb-2" href="./artkery.html">Artkery Project</a></li>
+                                    <li><a class="dropdown-item mb-2" href="./meow.html">Meow! That's hot Project</a></li>
+                                    <li><a class="dropdown-item" href="./farfett.html">Farfett Project</a></li>
+                                </ul>
+                            </li>
+                            <img class="sprinkles" src="./images/sprinkle-danielaPortfolio.svg" alt="sprinkle">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul class="nav-links d-flex">
-                <li class="pe-3"><a href="about.html">About</a></li>
-                <li class="pe-3"><a href="education.html">Education</a></li>
-                <!-- <li class="pe-3"><a href="experience.html">Experience</a></li> -->
-                <li class="pe-3"><a href="portfolio.html">Portfolio</a></li>
-                <li class="pe-3"><a href="contact.html">Contact</a></li>
-            </ul>
         </nav>
+        <img class="illustration1" src="./images/illustration1.png" alt="illustartion daniela">
     </header>
     <section>
         <div class="d-flex justify-content-center mt-5">
@@ -40,8 +75,32 @@
 
                 <p>My assertive communication style ensures clarity and effectiveness in conveying ideas, while my positive attitude fosters a motivating atmosphere. I'm always eager to learn, continuously seeking opportunities to expand my knowledge and skills. Detail-oriented and a natural team player, I bring a balance of creative thinking and analytical acumen to every project I undertake.</p>
             </div>
+            <h4 class="fs-4 mt-4">Languages</h4>
+                <div class="d-flex align-items-center">
+                    <img class="language-sparkle pe-3" src="./images/sprinkle-danielaPortfolio.svg">
+                    <p class="m-0">Spanish - Native</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img class="language-sparkle pe-3" src="./images/sprinkle-danielaPortfolio.svg">
+                    <p class="m-0">English - Fluent</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img class="language-sparkle pe-3" src="./images/sprinkle-danielaPortfolio.svg">
+                    <p class="m-0">Portuguese - Fluent</p>
+                </div>
         </div>
     </section>
+    <footer class="d-flex flex-column mt-5 mb-4">
+        <div class="footer-container d-flex justify-content-center align-items-center">
+            <img class="imgFooter px-3" style="width: 300px;" src="./images/danielaGonzalez-logo.png" alt="daniela logo"> 
+            <p class="footerText">&copy; 2023 Daniela Gonzalez.</p>
+            <div class="footerIconsContainer d-flex ms-4 pw-3">
+                <a href="https://github.com/gonz0174"><img class="pe-3 footerIcons" src="./images/github-daniela.png" alt="github logo"></a>
+                <a href="https://www.linkedin.com/in/danielagonzalezsarria/"><img class="pe-3 footerIcons"  src="./images/linkedin-daniela.png" alt="linkedin logo"></a>
+                <a href="https://www.instagram.com/farfett.ca/"><img class="pe-3 footerIcons" src="./images/instagram-daniela.png" alt="instagram logo"></a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

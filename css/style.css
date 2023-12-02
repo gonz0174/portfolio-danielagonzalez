@@ -15,6 +15,7 @@
 
     display:flex;
     flex-direction:column;
+    position: relative;
 
     background-color: #f7f4e9;
 
@@ -29,12 +30,20 @@ h2, h3, h4, ul li {
     letter-spacing: 2px;
 }
 
-p, label, ol, .btn-contact {
+p, label, ol, .btn-contact, .know-me {
     font-family: 'Kurale', serif;
 }
 
+h3 {
+    font-size: 18pt !important;
+}
+
 p {
-    font-size: 16pt;
+    font-size: 14pt;
+}
+
+.justified {
+    text-align: justify;
 }
 
 nav {
@@ -94,6 +103,26 @@ ul li .dropdown-menu {
     background-repeat: repeat-x;
 
     border-radius: 16px;
+}
+
+.bio-container {
+    background-color: #F3CFC7;
+    border-radius: 16px;
+    margin-right: 20px;
+    padding: 16px;
+
+}
+
+.welcomeMessage {
+    color: #F19820;
+}
+
+.contactIndex-container {
+    background-color: #F7D49A;
+    border-radius: 16px;
+    margin-right: 20px;
+    padding: 16px;
+
 }
 
 .img-contact {
@@ -196,8 +225,6 @@ ul li .dropdown-menu {
 }
 
 .know-me {
-    left: 50%;
-    width: 100px;
     border-radius: 10px;
     border: 1px solid #F19820;
     background-color: #F19820;
@@ -206,6 +233,21 @@ ul li .dropdown-menu {
 .know-me a {
     color: white;
     text-decoration: none;
+}
+.cvMessage {
+    color: #E48B8B;
+}
+
+.mapLocation {
+    border-radius: 16px;
+}
+
+.fa-chevron-right {
+    color: white;
+}
+
+.language-sparkle {
+    width: 36px;
 }
 
 .img-thumbnail-index {
@@ -222,12 +264,147 @@ footer {
     padding: 1em 0;
 
     background-color: #F7D49A;
+    background-image: url("/images/dots.png");
 
     border-radius: 16px;
 }
 
+.illustration2 {
+    position: absolute;
+    bottom: 0;
+    right: -90px;
+}
+
+.index-icons {
+    background-color: #E48B8B !important;
+    padding: 7px 8px;
+    border-radius: 50%;
+}
+
+.indexSocialIcons {
+    width: 70%;
+}
+
+.indexContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width:991px) {
-    .illustration1 {
+    p {
+        font-size: 12pt;
+    }
+
+    .illustration1, .illustration2 {
         display: none;
+    }
+
+    .illustration3 {
+        width: 280px;
+    }
+
+    .indexContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bio-container {
+        background-color: #F3CFC7;
+        border-radius: 16px;
+        margin-right: 20px;
+        padding: 16px;
+        width: 500px;
+    }
+    
+    .contactIndex-container {
+        background-color: #F7D49A;
+        border-radius: 16px;
+        margin-right: 20px;
+        padding: 16px;
+        width: 500px;
+    }
+
+    .mapSection {
+        width: 450px;
+        height: 300px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .footerText{
+        font-size: 1rem !important;
+        text-align: center;
+    }
+
+    .footerIcons {
+        width: 80%;
+    }
+
+    .imgFooter {
+        width: 200px !important;
+        padding-bottom: 14px;
+    }
+}
+
+@media (max-width:540px) {
+    .container {
+        width: 75vw;
+        min-width: 375px;
+        max-width: 500px;
+    
+        height:auto;
+        min-height: 100vh;
+    
+        display:flex;
+        flex-direction:column;
+        position: relative;
+    
+        margin: auto;
+    }
+
+    nav {
+        width: 400px;
+    }
+
+    .welcome {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+
+        width: 400px;
+    }
+
+    .welcome h2 {
+        text-align: center;
+    }
+
+    .welcomeTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .danielaIndeximg {
+        width: 250px;
+        height: 250px;
+    }
+
+    .bio-container {
+        background-color: #F3CFC7;
+        border-radius: 16px;
+        margin-right: 20px;
+        padding: 16px;
+        width: 350px;
+    }
+    
+    .contactIndex-container {
+        background-color: #F7D49A;
+        border-radius: 16px;
+        margin-right: 20px;
+        padding: 16px;
+        width: 350px;
     }
 }
