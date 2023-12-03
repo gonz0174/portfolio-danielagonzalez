@@ -21,8 +21,20 @@
 
     margin: auto;
 }
+.greyBackground {
+    background-color: #F5F1EB;
+    border-radius: 16px;
+}
 
-h2, h3, h4, ul li {
+.pinkText {
+    color: #E48B8B;
+}
+
+.greenText {
+    color: #94AB5A;
+}
+
+h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 
@@ -30,7 +42,7 @@ h2, h3, h4, ul li {
     letter-spacing: 2px;
 }
 
-p, label, ol, .btn-contact, .know-me {
+p, label, ol, .btn-contact, .know-me, ul li {
     font-family: 'Kurale', serif;
 }
 
@@ -60,7 +72,12 @@ nav ul li a:hover {
     border-radius: 6px;
 }
 
-ul li {
+nav ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
     text-decoration: none;
     font-size: 16pt;
 }
@@ -101,7 +118,6 @@ ul li .dropdown-menu {
     background-color: #F5F1EB;
     background-image: url("/images/dandelion.png");
     background-repeat: repeat-x;
-
     border-radius: 16px;
 }
 
@@ -110,7 +126,6 @@ ul li .dropdown-menu {
     border-radius: 16px;
     margin-right: 20px;
     padding: 16px;
-
 }
 
 .welcomeMessage {
@@ -246,7 +261,7 @@ ul li .dropdown-menu {
 }
 
 .language-sparkle {
-    width: 36px;
+    width: 30px;
 }
 
 .img-thumbnail-index {
@@ -287,6 +302,16 @@ footer {
 .indexContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.languages-container {
+    background-color: #F3CFC7;
+    
+    border-radius: 16px;
+}
+
+.hobbiesIcon {
+    width: 90px;
 }
 
 @media (max-width:991px) {
