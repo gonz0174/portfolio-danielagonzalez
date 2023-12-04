@@ -372,6 +372,28 @@ footer {
     background-color: #E6D0F0;
 }
 
+.clientInstructionsBakery {
+    background-color: #F4F1EB;
+    border: 4px solid #E6D0F0;
+}
+
+.bakeryText li {
+    font-size: 12pt;
+}
+
+.bakeryTextP {
+    font-size: 12pt;
+}
+
+.illustrationBakery {
+    width: 20%;
+}
+
+.illustrationBakeryMood {
+    width: 200px;
+    height: 50px;
+}
+
 @media (max-width:991px) {
     p, ul li {
         font-size: 14pt;
@@ -502,6 +524,12 @@ footer {
     .contact-details p {
         font-size: smaller;
     }
+
+    .illustrationBakeryMood {
+        width: 100px;
+        height: 20px;
+    }
+
 }
 
 @media (max-width:540px) {
