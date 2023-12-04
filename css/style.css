@@ -394,6 +394,11 @@ footer {
     height: 50px;
 }
 
+.meowOriginalLogo {
+    width: 50%;
+    border-radius: 40px;
+}
+
 @media (max-width:991px) {
     p, ul li {
         font-size: 14pt;
