@@ -48,7 +48,7 @@ h2, h3, h4, h5 {
     letter-spacing: 2px;
 }
 
-p, label, ol, .btn-contact, .know-me, ul li {
+p, label, ol, .btn-contact, .know-me, ul li, .btn-portfolio {
     font-family: 'Kurale', serif;
 }
 
@@ -332,6 +332,26 @@ footer {
 
 .hobbiesIcon {
     width: 80px;
+}
+
+.card-group .card {
+    border: 1px solid #f7e0bc;
+    border-radius: 16px;
+
+    background-color: #F7D49A;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 11pt;
+    text-align: center;
+}
+
+.farfettLogo {
+    margin: 70px 0;
 }
 
 @media (max-width:991px) {
