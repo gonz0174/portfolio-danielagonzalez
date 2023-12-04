@@ -50,8 +50,8 @@ h3 {
     font-size: 18pt !important;
 }
 
-p {
-    font-size: 14pt;
+p, ul li{
+    font-size: 16pt;
 }
 
 .justified {
@@ -137,6 +137,10 @@ ul li .dropdown-menu {
     border-radius: 16px;
     margin-right: 20px;
     padding: 16px;
+}
+
+.img-contact {
+    height: 380px;
 }
 
 .daniela-about {
@@ -306,12 +310,12 @@ footer {
 }
 
 .hobbiesIcon {
-    width: 90px;
+    width: 80px;
 }
 
 @media (max-width:991px) {
-    p {
-        font-size: 12pt;
+    p, ul li {
+        font-size: 14pt;
     }
 
     .illustration1, .illustration2 {
@@ -322,15 +326,17 @@ footer {
         width: 280px;
     }
 
-    .indexContainer {
+    header, .indexContainer, .welcome {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .bio-container {
         background-color: #F3CFC7;
         border-radius: 16px;
-        margin-right: 20px;
+        margin: 0;
         padding: 16px;
         width: 500px;
     }
@@ -338,7 +344,7 @@ footer {
     .contactIndex-container {
         background-color: #F7D49A;
         border-radius: 16px;
-        margin-right: 20px;
+        margin: 0;
         padding: 16px;
         width: 500px;
     }
