@@ -354,6 +354,11 @@ footer {
     margin: 70px 0;
 }
 
+.artkeryContainer {
+    padding: 10px;
+    background-image: url("/images/icons-artkery/artkeryBackground.png");
+}
+
 @media (max-width:991px) {
     p, ul li {
         font-size: 14pt;
