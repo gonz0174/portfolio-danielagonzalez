@@ -21,8 +21,14 @@
 
     margin: auto;
 }
+
 .greyBackground {
     background-color: #F5F1EB;
+    border-radius: 16px;
+}
+
+.yellowBackground {
+    background-color: #F7D49A;
     border-radius: 16px;
 }
 
@@ -333,7 +339,7 @@ footer {
         font-size: 14pt;
     }
 
-    .illustration1, .illustration2 {
+    .illustration1, .illustration2, .thingsIlove, .softwareSkills {
         display: none;
     }
 
@@ -369,6 +375,26 @@ footer {
         height: 300px;
     }
 
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .danielaInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .languages-container {
+        width: 500px;
+        margin: 0 !important;
+    }
+
     .footer-container {
         display: flex;
         flex-direction: column !important;
@@ -387,26 +413,72 @@ footer {
         width: 200px !important;
         padding-bottom: 14px;
     }
+
+    .contactPage {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-4, .col-7 {
+        width: 100% !important;
+    }
+    
+    .col-5, .col-8 {
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+
+    .sendEmail {
+        width: 100%;
+    }
+
+    .imgContact {
+        max-width: 50% !important;
+        order: -1;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-details p {
+        font-size: smaller;
+    }
 }
 
 @media (max-width:540px) {
+    h1, h2, h3, h4, h5, p, ul li, button, label {
+        font-size: smaller !important;
+    }
+
     .container {
-        width: 75vw;
-        min-width: 375px;
-        max-width: 500px;
-    
-        height:auto;
-        min-height: 100vh;
-    
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
+
         position: relative;
+
+        justify-content: center !important;
+        align-items: center;
     
         margin: auto;
     }
 
     nav {
         width: 400px;
+    }
+
+    .indexContainer {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center !important;
+        align-items: center;
     }
 
     .welcome {
@@ -435,7 +507,6 @@ footer {
     .bio-container {
         background-color: #F3CFC7;
         border-radius: 16px;
-        margin-right: 20px;
         padding: 16px;
         width: 350px;
     }
@@ -443,8 +514,62 @@ footer {
     .contactIndex-container {
         background-color: #F7D49A;
         border-radius: 16px;
-        margin-right: 20px;
         padding: 16px;
         width: 350px;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-details span {
+        display: none;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+
+        background-image: none;
+    }
+
+    .contact-details div {
+        padding-top: 5px;
+    }
+    
+    .contactPage {
+        display: flex;
+        flex-direction: column;
+
+        width: 100% !important;
+    }
+
+    .col-7 {
+        width: 100% !important;
+    }
+    
+    .col-5 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+
+        width: 400px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footerIcons {
+        width: 50px;
     }
 }
