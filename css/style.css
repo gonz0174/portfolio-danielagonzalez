@@ -356,7 +356,20 @@ footer {
 
 .artkeryContainer {
     padding: 10px;
-    background-image: url("/images/icons-artkery/artkeryBackground.png");
+}
+
+.artkeryPurpleIcon {
+    border-radius: 16px;
+}
+
+.artkerySprinkles {
+    background-color: #E6D0F0;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.card .bakeryCard {
+    background-color: #E6D0F0;
 }
 
 @media (max-width:991px) {
