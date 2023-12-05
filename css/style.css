@@ -32,6 +32,25 @@
     border-radius: 16px;
 }
 
+.meowDarkBackground {
+    background-color: #1e1941;
+    background-image: url("../images/chile.png");
+    border-radius: 16px;
+    color: white;
+}
+
+.meowDarkBg {
+    background-color: #1F1E26;
+    border-radius: 16px;
+    color: white;
+}
+
+.meowLightBackground {
+    background-color: #FFFDF5;
+    border-radius: 16px;
+    background-image: url("../images/fruits.png");
+}
+
 .pinkText {
     color: #E48B8B;
 }
@@ -398,6 +417,12 @@ footer {
 .meowOriginalLogo {
     width: 50%;
     border-radius: 40px;
+}
+
+.meowOriginalBackground {
+    background-color: #FCF5F5;
+    border-radius: 16px;
+    width: 100%;
 }
 
 @media (max-width:991px) {
