@@ -426,7 +426,7 @@ footer {
 }
 
 @media (max-width:991px) {
-    p, ul li {
+    p, ul li, ol {
         font-size: 14pt;
     }
 
