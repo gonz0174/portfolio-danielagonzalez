@@ -35,6 +35,7 @@
 .meowDarkBackground {
     background-color: #1e1941;
     background-image: url("../images/chile.png");
+    background-size: cover;
     border-radius: 16px;
     color: white;
 }
@@ -49,6 +50,7 @@
     background-color: #FFFDF5;
     border-radius: 16px;
     background-image: url("../images/fruits.png");
+    background-size: cover;
 }
 
 .pinkText {
@@ -77,6 +79,10 @@ h3 {
 
 p, ul li{
     font-size: 16pt;
+}
+
+ul ol {
+    font-size: 14pt;
 }
 
 .justified {
@@ -427,8 +433,12 @@ footer {
 }
 
 @media (max-width:991px) {
-    p, ul li, ol {
-        font-size: 14pt;
+    p, ul li {
+        font-size: 14pt !important;
+    }
+
+    ul ol {
+        font-size: 12pt !important;
     }
 
     .illustration1, .illustration2, .thingsIlove, .softwareSkills {
