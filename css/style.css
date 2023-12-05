@@ -122,7 +122,7 @@ ul li .dropdown-menu {
 
 .welcome {
     background-color: #F5F1EB;
-    background-image: url(/images/dandelion.png);
+    background-image: url(images/dandelion.png);
     background-repeat: repeat-x;
     border-radius: 16px;
 }
@@ -298,7 +298,7 @@ footer {
     padding: 1em 0;
 
     background-color: #F7D49A;
-    background-image: url("/images/dots.png");
+    background-image: url(images/dots.png);
 
     border-radius: 16px;
 }
